@@ -1,0 +1,12 @@
+Acess Key
+AKIAJS7OH7FVUROUTVVA
+
+
+Secret Acess Key
+kN6Aka74iELgDmdzl7FowZpDDEgwQ4MeuykTzFef
+
+
+cartoes = {
+    '708419173228': 'julio',
+    '424222889189': 'lucas'
+}
