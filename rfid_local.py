@@ -24,7 +24,7 @@ while True:
 
         if uid in tags_liberadas.keys():
             print('ID: {} - Acesso Liberado'.format(tags_liberadas[uid]))
-        else
+        else:
             print('ID: {} - Acesso Bloqueado'.format(tags_liberadas[uid]))
 
 
