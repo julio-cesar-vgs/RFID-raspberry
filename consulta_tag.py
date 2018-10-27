@@ -1,24 +1,22 @@
 import MFRC522
 import RPi.GPIO as GPIO
 import time
-# Create an object of the class MFRC522
+
 LeitorRFID = MFRC522.MFRC522()
 
-# Welcome message
-print("Aproxime a Tag")
-# print("Press Ctrl-C to stop.")
 
-# This loop keeps checking for chips. If one is near it will get the UID and authenticate
+print('Aproxime a TAG')
+
+
 while True:
 
-    # Verificar se existe tag no leitor
+    # Verifica se existe TAG no leitor
     (status, TagType) = LeitorRFID.MFRC522_Request(LeitorRFID.PICC_REQIDL)
 
     # Leitura da TAG
     if status == LeitorRFID.MI_OK:
-        print("Cartão detectado")
-        # Get the UID of the card
+        print('TAG Detectada!')
         (status, uid) = LeitorRFID.MFRC522_Anticoll()
-        print('uid', uid)
+        print('uid: ', uid)
 
-    time.sleep(5)
+    time.sleep(.5)
