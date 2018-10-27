@@ -22,7 +22,7 @@ while True:
         (status, uid) = LeitorRFID.MFRC522_Anticoll()
         uid = tuple(uid)
 
-        if uid in tags_liberadas.keys()
+        if uid in tags_liberadas.keys():
             print('ID: {} - Acesso Liberado'.format(tags_liberadas[uid]))
         else
             print('ID: {} - Acesso Bloqueado'.format(tags_liberadas[uid]))
