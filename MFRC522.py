@@ -26,7 +26,7 @@ import spi
 import signal
 import time
 
-GPIO.setwarning(False)
+GPIO.setwarnings(False)
 class MFRC522:
     NRSTPD = 22
 
