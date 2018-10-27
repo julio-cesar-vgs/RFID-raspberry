@@ -1,4 +1,4 @@
-from builtins import tuple
+from builtins import tuple, KeyboardInterrupt
 import MFRC522
 import RPi.GPIO as GPIO
 import time
@@ -11,23 +11,25 @@ tags_liberadas = {
 LeitorRFID = MFRC522.MFRC522()
 
 print('Aproxime a TAG')
+try:
+    while True:
 
-while True:
+        # Verifica se existe TAG no leitor
+        (status, TagType) = LeitorRFID.MFRC522_Request(LeitorRFID.PICC_REQIDL)
+        # Leitura da TAG
+        if status == LeitorRFID.MI_OK:
+            print('TAG Detectada!')
+            (status, uid) = LeitorRFID.MFRC522_Anticoll()
+            uid = tuple(uid)
 
-    # Verifica se existe TAG no leitor
-    (status, TagType) = LeitorRFID.MFRC522_Request(LeitorRFID.PICC_REQIDL)
-    # Leitura da TAG
-    if status == LeitorRFID.MI_OK:
-        print('TAG Detectada!')
-        (status, uid) = LeitorRFID.MFRC522_Anticoll()
-        uid = tuple(uid)
-
-        if uid in tags_liberadas.keys():
-            print('ID: {} - Acesso Liberado'.format(tags_liberadas[uid]))
-        else:
-            print('ID: {} - Esta Tag esta bloqueada'.format(tags_liberadas[uid]))
+            if uid in tags_liberadas.keys():
+                print('ID: {} - Acesso Liberado'.format(tags_liberadas[uid]))
+            else:
+                print('ID: {} - Esta Tag esta bloqueada'.format(tags_liberadas[uid]))
 
 
 
-        print('uid: ', uid)
-    time.sleep(.5)
+            print('uid: ', uid)
+        time.sleep(.5)
+except KeyboardInterrupt:
+        GPIO.cleanup()
