@@ -1,5 +1,5 @@
 import MFRC522
-import rpi.gpio as gpio
+import RPi.GPIO as GPIO
 import time
 # Create an object of the class MFRC522
 LeitorRFID = MFRC522.MFRC522()
