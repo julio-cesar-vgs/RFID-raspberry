@@ -17,6 +17,8 @@ def le_tag():
         # Verifica se existe TAG no leitor
         (status, TagType) = LeitorRFID.MFRC522_Request(LeitorRFID.PICC_REQIDL)
 
+        print('Aproxime a tag')
+
         # Leitura da TAG
         if status == LeitorRFID.MI_OK:
             print('TAG Detectada!')
