@@ -10,6 +10,7 @@ tabelaTags = dynamodb.Table('tags')
 tabelaLogs = dynamodb.Table('logs')
 
 LeitorRFID = MFRC522.MFRC522()
+print('Aproxime a tag')
 
 
 def le_tag():
@@ -17,7 +18,6 @@ def le_tag():
         # Verifica se existe TAG no leitor
         (status, TagType) = LeitorRFID.MFRC522_Request(LeitorRFID.PICC_REQIDL)
 
-        print('Aproxime a tag')
 
         # Leitura da TAG
         if status == LeitorRFID.MI_OK:
@@ -64,6 +64,7 @@ try:
         acesso = valida_tag(resultado_consulta)
         registra_acesso(uid,acesso)
         time.sleep(.5)
+        print('Estou acionado')
 except KeyboardInterrupt:
     GPIO.cleanup()
 
