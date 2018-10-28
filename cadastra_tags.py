@@ -8,7 +8,6 @@ table = dynamodb.Table('tags')
 cartoes = {
     '708419173228' : 'julio',
     '424222889189' : 'lucas',
-    '561061060': 'teste'
 }
 
 
