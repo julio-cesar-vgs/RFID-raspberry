@@ -1,9 +1,9 @@
 from boto3.dynamodb.conditions import Key
-from builtins import tuple, KeyboardInterrupt
 import boto3
 import MFRC522
 import RPi.GPIO as GPIO
 import time
+
 
 dynamodb = boto3.resource('dynamodb')
 
