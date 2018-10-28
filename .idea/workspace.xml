@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efb42f11-3f78-4122-8aa4-19855d44d014" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rfid_remoto.py" beforeDir="false" afterPath="$PROJECT_DIR$/rfid_remoto.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,12 +60,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="1" />
+          <entry key="py" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="1" />
+          <entry key="Python" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -122,10 +121,22 @@
         <entry file="file://$PROJECT_DIR$/rfid_remoto.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
               <folding>
-                <marker date="1540753145320" expanded="true" signature="297:1171" ph="..." />
-                <marker date="1540753145320" expanded="true" signature="873:1059" ph="..." />
+                <marker date="1540753348054" expanded="true" signature="252:1126" ph="..." />
+                <marker date="1540753348054" expanded="true" signature="828:1014" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/rfid_remoto.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="6" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -329,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540752938208</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="criado um arquivo para acesso remoto">
+      <created>1540753157844</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1540753157844</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -410,6 +428,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/rfid_remoto.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cadastra_tags.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -420,10 +448,10 @@
     <entry file="file://$PROJECT_DIR$/rfid_remoto.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
           <folding>
-            <marker date="1540753145320" expanded="true" signature="297:1171" ph="..." />
-            <marker date="1540753145320" expanded="true" signature="873:1059" ph="..." />
+            <marker date="1540753348054" expanded="true" signature="252:1126" ph="..." />
+            <marker date="1540753348054" expanded="true" signature="828:1014" ph="..." />
           </folding>
         </state>
       </provider>
