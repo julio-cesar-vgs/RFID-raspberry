@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efb42f11-3f78-4122-8aa4-19855d44d014" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rfid_remoto.py" beforeDir="false" afterPath="$PROJECT_DIR$/rfid_remoto.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/RFID_raspberry$cadastra_tags.coverage" NAME="cadastra_tags Coverage Results" MODIFIED="1540660807247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/RFID_raspberry$cadastra_tags.coverage" NAME="cadastra_tags Coverage Results" MODIFIED="1540755398883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RFID_raspberry$rfid_remoto.coverage" NAME="rfid_remoto Coverage Results" MODIFIED="1540753150038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -60,24 +61,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="2" />
+          <entry key="py" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="2" />
+          <entry key="Python" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="520" />
-          <entry key="txt" value="36" />
+          <entry key="py" value="640" />
+          <entry key="txt" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="36" />
-          <entry key="Python" value="520" />
+          <entry key="PLAIN_TEXT" value="49" />
+          <entry key="Python" value="640" />
         </counts>
       </usages-collector>
     </session>
@@ -111,8 +112,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cadastra_tags.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="170">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/cadastra_tags.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="4" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -120,11 +130,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rfid_remoto.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            <state relative-caret-position="319">
+              <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="45" />
               <folding>
-                <marker date="1540753348054" expanded="true" signature="252:1126" ph="..." />
-                <marker date="1540753348054" expanded="true" signature="828:1014" ph="..." />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,8 +142,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Downloads/rfid_remoto.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="6" />
+            <state relative-caret-position="136">
+              <caret line="8" column="35" lean-forward="true" selection-end-line="67" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -189,8 +198,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1028" />
-    <option name="width" value="899" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -231,7 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.rfid_remoto">
+  <component name="RunManager" selected="Python.cadastra_tags">
     <configuration name="cadastra_tags" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="RFID-raspberry" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -282,8 +291,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.rfid_remoto" />
         <item itemvalue="Python.cadastra_tags" />
+        <item itemvalue="Python.rfid_remoto" />
       </list>
     </recent_temporary>
   </component>
@@ -347,14 +356,35 @@
       <option name="project" value="LOCAL" />
       <updated>1540753157844</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="criado um arquivo para acesso remoto">
+      <created>1540753353109</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1540753353109</updated>
+    </task>
+    <task id="LOCAL-00009" summary="criado um arquivo para acesso remoto">
+      <created>1540753534992</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1540753534992</updated>
+    </task>
+    <task id="LOCAL-00010" summary="cadastra tags">
+      <created>1540756412413</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1540756412413</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1028" y="0" width="899" height="1047" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27461708" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2741359" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -388,7 +418,8 @@
     <MESSAGE value="correcao do arquivo" />
     <MESSAGE value="Uma nova informacao" />
     <MESSAGE value="criado um arquivo para acesso remoto" />
-    <option name="LAST_COMMIT_MESSAGE" value="criado um arquivo para acesso remoto" />
+    <MESSAGE value="cadastra tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="cadastra tags" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/MFRC522.py">
@@ -430,28 +461,34 @@
     </entry>
     <entry file="file://$USER_HOME$/Downloads/rfid_remoto.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" />
+        <state relative-caret-position="136">
+          <caret line="8" column="35" lean-forward="true" selection-end-line="67" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/cadastra_tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cadastra_tags.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="30" />
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rfid_remoto.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        <state relative-caret-position="319">
+          <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="45" />
           <folding>
-            <marker date="1540753348054" expanded="true" signature="252:1126" ph="..." />
-            <marker date="1540753348054" expanded="true" signature="828:1014" ph="..." />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
