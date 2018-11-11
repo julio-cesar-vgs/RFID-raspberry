@@ -41,7 +41,7 @@ def valida_tag(resultado_consulta):
         print('Usuario: {} - Acesso Liberado!'.format(usuario))
         acesso = 'Liberado'
     else:
-        print('Usuario: Inválido - Acesso Negado!')
+        print('Usuario: Invalido - Acesso Negado!')
         acesso = 'Negado'
     return acesso
 
